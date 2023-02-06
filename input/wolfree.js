@@ -43,9 +43,6 @@ const wolfree = {
 		)
 		const appIDArray = [
 			'THL396-JGHRK9EVU6'
-			'U4PX2P-L5UA3J8P5K'
-			'YXAUTL-XV683G25PT'
-			'YVK2GH-5XQ3WX2Q48'
 		]
 		const appID = appIDArray[
 			self.crypto.getRandomValues(new Uint32Array(1)) % appIDArray.length
